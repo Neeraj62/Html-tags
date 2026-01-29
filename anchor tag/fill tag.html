@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- absolute path -->
+    <h1>absolute path- a complete location of fill stating from the root dirctory</h1>
+    <img src=""D:\document notes\WhatsApp Image 2026-01-16 at 10.41.13 PM.jpeg""" alt="img">
+    <br>
+
+    <!-- relative path -->
+     <h2>location at current working directory</h2>
+     <img src="../Web_Fundamental_Questions_.pdf" alt="pdf">
+<br>
+<!-- Video tag -->
+ <h3>video tag is used to imbed video content in a documentit support various attributes</h3>
+ <video src="./WhatsApp Video 2026-01-29 at 8.49.18 PM.mp4" autoplay>video</video>
+ <br>
+ <video src="./WhatsApp Video 2026-01-29 at 8.49.18 PM.mp4" controls><source src="./WhatsApp Video 2026-01-29 at 8.49.18 PM.mp4" type="video/mp4"></video>
+<br>
+
+<!-- form tag -->
+ <h3>form tag- AN HTML form is used to collect input from user and sender that data to a server</h3>
+ <p>name,EMAIL, PASSWORAD, FEEDBACK, REGISTATION</p>
+ <BR></BR>
+
+ <form action="/submit" method="post"></form>
+ <br>
+
+ <!-- BASE STRUCTURE OF AN HTML FORM -->
+ <form action="/submit" method="post"><label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<input type="submit" value="submit">
+</form>
+
+<!-- EXPLAIN -->
+<H4>
+    ACTION:- where the form data is send 
+    METHOD:- how data is send(GET or POST)
+    <input>- take user 
+    <submit>-send the form data
+</H4>
+<br>
+
+<!-- LABEL AND INPUT CONNECTION  -->
+ <label for="NAME">NAME:</label>
+ <input type="text" id="NAME" name="NAME">
+<br>
+
+
+ <!-- NAME ATTRIBUTE- the name attribute is the key send to the serveer
+  if user enter ROHIT, data send is  -->
+
+  <input type="text" name="name">
+  <br>
+
+  <!-- INPUT VALIDATION ATTRIBUTES -->
+   <input type="text"
+   required
+   minlength="3"
+   maxlength="20"
+   pattern="[A-Za-z]+"
+   title="only alphabets allowed">
+
+</body>
+</html>
